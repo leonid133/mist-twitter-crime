@@ -1,7 +1,7 @@
+package twitter
+
 import io.hydrosphere.mist.lib.{MQTTPublisher, MistJob}
-import org.apache.spark.SparkContext
-import org.apache.spark.streaming.Seconds
-import org.apache.spark.streaming.StreamingContext
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.twitter.TwitterUtils
 
 
