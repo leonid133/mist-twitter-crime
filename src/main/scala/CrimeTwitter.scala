@@ -1,6 +1,7 @@
 import io.hydrosphere.mist.lib.{MQTTPublisher, MistJob}
-import org.apache.spark.streaming.twitter.TwitterUtils
-import org.apache.spark.streaming.{Seconds, StreamingContext}
+
+import org.apache.spark.streaming._
+import org.apache.spark.streaming.twitter._
 
 
 object CrimeTwitter extends MistJob with MQTTPublisher {
